@@ -1,0 +1,68 @@
+{
+  "egg": {
+    "mobile": "./images/mobile/image-transform.jpg",
+    "desktop": "./images/desktop/image-transform.jpg"
+  },
+  "cup": {
+    "mobile": "mobile/image-stand-out.jpg",
+    "desktop": "./images/desktop/image-stand-out.jpg"
+  },
+  "milk": {
+    "mobile": "./images/mobile/image-gallery-milkbottles.jpg",
+    "desktop": "./images/desktop/image-gallery-milkbottles.jpg"
+  },
+  "plate": {
+    "mobile": "./images/mobile/image-gallery-orange.jpg",
+    "desktop": "./images/desktop/image-gallery-orange.jpg"
+  },
+  "cone": {
+    "mobile": "./images/mobile/image-gallery-cone.jpg",
+    "desktop": "./images/desktop/image-gallery-cone.jpg"
+  },
+  "cube": {
+    "mobile": "./images/mobile/image-gallery-sugar-cubes.jpg",
+    "desktop": "./images/desktop/image-gallery-sugar-cubes.jpg"
+  },
+  "graphicDesign": {
+    "span": "Graphic design",
+    "p": "Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention."
+  },
+  "photography": {
+    "span": "Photography",
+    "p": "Increase your credibility by getting the most stunning, high-quality photos that improve your business image."
+  },
+  "transform": {
+    "span": "Transform your brand",
+    "p": "We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.",
+    "button": "Learn more"
+  },
+  "standOut": {
+    "span": "Stand out to the right audience",
+    "p": "Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. ",
+    "button": "Learn more"
+  },
+  "menu": {
+    "li1": "About",
+    "li2": "Services",
+    "li3": "Projects",
+    "button": "Contact"
+  },
+  "nav": {
+    "logo": "./images/logo.svg",
+    "mobileButton": "./images/icon-hamburger.svg"
+  },
+  "header": {
+    "h1": "We are creatives",
+    "button": "./images/icon-arrow-down.svg"
+  },
+  "testimonials": {
+    "h2": "Client testimonials"
+  },
+  "socials": {
+    "logo": "./images/logo.svg",
+    "facebook": "./images/icon-facebook.svg",
+    "instagram": "./images/icon-instagram.svg",
+    "twitter": "./images/icon-twitter.svg",
+    "pinterest": "./images/icon-pinterest.svg"
+  }
+}
