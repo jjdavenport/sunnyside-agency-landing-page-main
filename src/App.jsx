@@ -8,18 +8,22 @@ import Footer from "./components/footer";
 import Header from "./components/header";
 import Testimonials from "./components/testimonials";
 import Socials from "./components/socials";
+import Transform from "./components/transform";
+import StandOut from "./components/stand-out";
 
 function App() {
   return (
     <>
-      <Socials />
-      <Testimonials />
       <Header />
       <Egg />
+      <Transform />
       <Cup />
-      <Photography />
+      <StandOut />
       <GraphicDesign />
+      <Photography />
+      <Testimonials />
       <Gallery />
+      <Socials />
       <Footer />
     </>
   );

@@ -21,7 +21,7 @@
   },
   "cube": {
     "mobile": "./images/mobile/image-gallery-sugar-cubes.jpg",
-    "desktop": "./images/desktop/image-gallery-sugar-cubes.jpg"
+    "desktop": "./images/desktop/image-gallery-sugarcubes.jpg"
   },
   "graphicDesign": {
     "span": "Graphic design",
@@ -34,12 +34,12 @@
   "transform": {
     "span": "Transform your brand",
     "p": "We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.",
-    "button": "Learn more"
+    "a": "Learn more"
   },
   "standOut": {
     "span": "Stand out to the right audience",
     "p": "Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. ",
-    "button": "Learn more"
+    "a": "Learn more"
   },
   "menu": {
     "li1": "About",
