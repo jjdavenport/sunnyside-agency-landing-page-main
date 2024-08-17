@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <>
-      <footer>
+      <footer className="bg-moderateCyan flex justify-center gap-1 text-xs">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
           Frontend Mentor

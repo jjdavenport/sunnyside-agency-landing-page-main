@@ -3,20 +3,26 @@ import data from "./assets/data.json";
 const Socials = () => {
   return (
     <>
-      <section>
+      <section className="bg-moderateCyan flex flex-col items-center gap-10 p-4">
         <img src={data.socials.logo} />
-        <ul>
+        <ul className="font-barlow flex gap-4">
           <li>
-            <a href="#">About</a>
+            <a className="hover:text-white" href="#">
+              About
+            </a>
           </li>
           <li>
-            <a href="#">Services</a>
+            <a className="hover:text-white" href="#">
+              Services
+            </a>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <a className="hover:text-white" href="#">
+              Projects
+            </a>
           </li>
         </ul>
-        <ul>
+        <ul className="flex gap-4">
           <li>
             <a href="">
               <img src={data.socials.facebook} />

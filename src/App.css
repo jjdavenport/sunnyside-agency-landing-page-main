@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+
 /*
 ! tailwindcss v3.4.10 | MIT License | https://tailwindcss.com
 */
@@ -446,7 +448,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -500,7 +502,7 @@ video {
   --tw-contain-style:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -554,44 +556,224 @@ video {
   --tw-contain-style:  ;
 }
 
-.flex {
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.top-1\/4{
+  top: 25%;
+}
+
+.bottom-1\/4{
+  bottom: 25%;
+}
+
+.bottom-3\/4{
+  bottom: 75%;
+}
+
+.flex{
   display: flex;
 }
 
-.h-screen {
+.grid{
+  display: grid;
+}
+
+.h-full{
+  height: 100%;
+}
+
+.h-screen{
   height: 100vh;
 }
 
-.transform {
+.w-1\/6{
+  width: 16.666667%;
+}
+
+.flex-1{
+  flex: 1 1 0%;
+}
+
+.transform{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.flex-col {
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-rows-2{
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.flex-col{
   flex-direction: column;
 }
 
-.bg-cherryMobile {
+.items-center{
+  align-items: center;
+}
+
+.justify-end{
+  justify-content: flex-end;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.gap-1{
+  gap: 0.25rem;
+}
+
+.gap-2{
+  gap: 0.5rem;
+}
+
+.gap-4{
+  gap: 1rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
+}
+
+.rounded-full{
+  border-radius: 9999px;
+}
+
+.bg-moderateCyan{
+  --tw-bg-opacity: 1;
+  background-color: hsl(168 34% 41% / var(--tw-bg-opacity));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+}
+
+.bg-cherryMobile{
   background-image: url('/images/mobile/image-graphic-design.jpg');
 }
 
-.bg-headerMobile {
+.bg-headerMobile{
   background-image: url('/images/mobile/image-header.jpg');
 }
 
-.bg-orangeMobile {
+.bg-orangeMobile{
   background-image: url('/images/mobile/image-photography.jpg');
 }
 
-@media (min-width: 768px) {
-  .md\:bg-cherryDesktop {
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-center{
+  background-position: center;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
+
+.p-4{
+  padding: 1rem;
+}
+
+.p-10{
+  padding: 2.5rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.font-barlow{
+  font-family: Barlow, sans-serif;
+}
+
+.font-fraunces{
+  font-family: Fraunces, sans-serif;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover{
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px){
+  .md\:flex{
+    display: flex;
+  }
+
+  .md\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .md\:grid-rows-none{
+    grid-template-rows: none;
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
+  }
+
+  .md\:items-center{
+    align-items: center;
+  }
+
+  .md\:bg-cherryDesktop{
     background-image: url('/images/desktop/image-graphic-design.jpg');
   }
 
-  .md\:bg-headerDesktop {
+  .md\:bg-headerDesktop{
     background-image: url('/images/desktop/image-header.jpg');
   }
 
-  .md\:bg-orangeDesktop {
+  .md\:bg-orangeDesktop{
     background-image: url('/images/desktop/image-photography.jpg');
+  }
+
+  .md\:text-left{
+    text-align: left;
   }
 }
