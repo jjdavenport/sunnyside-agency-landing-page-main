@@ -4,10 +4,10 @@ import data from "./assets/data.json";
 const Header = () => {
   return (
     <>
-      <header className="flex h-screen flex-col bg-headerMobile bg-cover bg-center bg-no-repeat md:bg-headerDesktop">
+      <header className="relative flex h-screen flex-col bg-headerMobile bg-cover bg-center bg-no-repeat md:bg-headerDesktop">
         <Nav />
-        <div className="flex flex-1 flex-col items-center justify-end">
-          <h1 className="font-fraunces text-4xl uppercase text-white">
+        <div className="absolute top-1/4 flex w-full flex-col items-center gap-24 md:gap-56">
+          <h1 className="font-fraunces text-center text-6xl uppercase text-white md:text-7xl">
             {data.header.h1}
           </h1>
           <button>

@@ -20,13 +20,11 @@ function App() {
       {desktop ? (
         <>
           <Header />
-          <section className="grid grid-cols-2 grid-rows-2">
+          <section className="grid grid-cols-2 grid-rows-3">
             <Transform />
             <Egg />
             <Cup />
             <StandOut />
-          </section>
-          <section className="grid grid-cols-2">
             <GraphicDesign />
             <Photography />
           </section>
@@ -38,11 +36,11 @@ function App() {
       ) : (
         <>
           <Header />
-          <section>
+          <section className="flex h-screen flex-col">
             <Egg />
             <Transform />
           </section>
-          <section>
+          <section className="flex h-screen flex-col">
             <Cup />
             <StandOut />
           </section>
