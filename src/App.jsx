@@ -20,15 +20,15 @@ function App() {
       {desktop ? (
         <>
           <Header />
-          <section className="grid grid-cols-2 grid-rows-3">
+          <section className="grid grid-cols-2 grid-rows-4">
             <Transform />
             <Egg />
             <Cup />
             <StandOut />
             <GraphicDesign />
             <Photography />
+            <Testimonials />
           </section>
-          <Testimonials />
           <Gallery />
           <Socials />
           <Footer />
@@ -44,8 +44,10 @@ function App() {
             <Cup />
             <StandOut />
           </section>
-          <GraphicDesign />
-          <Photography />
+          <section className="h-screen">
+            <GraphicDesign />
+            <Photography />
+          </section>
           <Testimonials />
           <Gallery />
           <Socials />

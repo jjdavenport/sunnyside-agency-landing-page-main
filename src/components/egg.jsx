@@ -5,7 +5,11 @@ const Egg = () => {
   const desktop = useMediaQuery({ query: "(min-width: 768px)" });
   return (
     <>
-      <img src={desktop ? data.egg.desktop : data.egg.mobile} alt={data.egg} />
+      <img
+        className="md:h-full md:w-full md:object-cover"
+        src={desktop ? data.egg.desktop : data.egg.mobile}
+        alt={data.egg}
+      />
     </>
   );
 };

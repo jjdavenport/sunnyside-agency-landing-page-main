@@ -12,11 +12,11 @@ const Nav = () => {
   return (
     <>
       {desktop ? (
-        <nav className="font-barlow flex items-center justify-between p-4">
+        <nav className="flex items-center justify-between p-4 font-barlow">
           <div>
             <img src={data.nav.logo} alt="Logo" />
           </div>
-          <ul className="flex items-center gap-8 text-white">
+          <ul className="flex items-center gap-8 font-semibold text-white">
             <li>
               <a href="#">{data.menu.li1}</a>
             </li>
@@ -27,7 +27,7 @@ const Nav = () => {
               <a href="#">{data.menu.li3}</a>
             </li>
             <li>
-              <button className="rounded-full bg-white px-4 py-2 text-black hover:bg-opacity-40">
+              <button className="rounded-full bg-white px-4 py-2 font-fraunces font-bold uppercase text-black transition-colors duration-300 ease-in-out hover:bg-opacity-40 hover:text-white">
                 {data.menu.button}
               </button>
             </li>
