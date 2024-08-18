@@ -3,7 +3,7 @@ import data from "./assets/data.json";
 const Transform = () => {
   return (
     <>
-      <article className="flex flex-1 flex-col justify-center gap-4 p-4 text-center md:h-full md:p-10 md:text-left">
+      <article className="flex flex-1 flex-col items-center justify-center gap-4 p-4 text-center md:h-full md:items-start md:p-10 md:text-left">
         <span className="font-fraunces text-4xl font-black">
           {data.transform.span}
         </span>

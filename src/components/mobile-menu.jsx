@@ -3,7 +3,9 @@ import data from "./assets/data.json";
 const MobileMenu = () => {
   return (
     <>
-      <dialog className="absolute top-14 z-10 flex w-11/12 flex-col items-center p-8 text-center text-lg">
+      <dialog className="absolute top-28 z-10 flex w-11/12 flex-col items-center p-8 text-center text-lg">
+        <div className="absolute -top-10 right-0 h-0 w-0 border-b-[96px] border-l-[96px] border-b-white border-l-transparent"></div>
+
         <ul className="flex flex-col gap-6 font-barlow font-semibold text-grayishBlue">
           <li>
             <a href="#">{data.menu.li1}</a>
